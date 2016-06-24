@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/Users/BryarCole/WebDev/RoysPage/main.css"/>
+        <script>(function(d, s, id) {
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'your-app-id',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+        
+    </head>
+   
+    <body background="https://s3.amazonaws.com/medeq/files/uploads/2014/10/Dallas-skyline-night.jpeg">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More Info <span class="caret"></span>
+      </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Drop Down One</a></li>
+          <li><a href="#">Drop Dwon 2</a></li>
+          <li><a href="#">Drop Down 3</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.facebook.com/profile.php?id=1379861219&fref=ts">Facebook</a></li>
+      <li><a href="https://www.instagram.com/royalcalvin_/">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">YouTube</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="jumbotron">
+  <h1 style="opacity: 1.0;">Roy Vann Home Page</h1>      
+  <p>Artist Info Here</p>
+</div>
+
+<div class="fb-page" data-href="http://www.facebook.com/profile.php?id=1379861219&amp;fref=ts" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+</div>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://img14.deviantart.net/1dfe/i/2005/026/9/3/austin_city_skyline_by_oomamiwocwoc.jpg" width="100%" height="100%">
+        
+      </div>
+
+      <div class="item">
+        <iframe width="1200" height="900" src="https://www.youtube.com/embed/aDDk5Th30J4" frameborder="0" allowfullscreen></iframe>
+      </div>
+    
+      <div class="item">
+        <img src="/Users/BryarCole/WebDev/RoysPage/TheFeelsTIGHT.jpg"  width="100%" height="100%">
+      </div>
+
+      <div class="item">
+        <iframe width="1200" height="900" src="https://www.youtube.com/embed/vgMRZwxL7uU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</div>
+<div class="mapContainer">
+<!-- Set height and width with CSS -->
+<div id="googleMap" style="height:500px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+   /*
+   For reference
+   90 is North
+   -90 is South
+   */ 
+var myCenter = new google.maps.LatLng(30.2500, -97.7500);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:22,
+scrollwheel:true,
+draggable:true,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</div>
+
+    </body>
+</html>
