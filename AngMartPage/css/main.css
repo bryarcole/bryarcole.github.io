@@ -195,7 +195,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .centerImage {
-  margin: 0 auto;
+  display: block;
+  margin: auto;
 }
 
 .navbar-default {
