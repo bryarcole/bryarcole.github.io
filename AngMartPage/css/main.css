@@ -194,6 +194,10 @@ fieldset[disabled] .btn-xl.active {
   background-color: #ffffff;
 }
 
+.centerImage {
+  margin: 0 auto;
+}
+
 .navbar-default {
   background-color: #222222;
   border-color: #cc3300;
