@@ -3,4 +3,7 @@ $(document).ready(function(){
     $("#dropbtn").click(function(){
         $("#blogsThoughts").toggle();
     });
+
+
+    
 });
