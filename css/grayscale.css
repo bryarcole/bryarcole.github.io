@@ -25,7 +25,6 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  text-align: center;
 }
 p {
   margin: 0 0 25px;
@@ -40,7 +39,7 @@ p {
   }
 }
 a {
-  color: #b30000;
+  color: #42DCA3;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -48,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #ff3333;
+  color: #1d9b6c;
 }
 .light {
   font-weight: 400;
@@ -124,29 +123,13 @@ a:focus {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: black;
-  background: url(http://media2.s-nbcnews.com/i/MSNBC/Components/Video/150220/a_flashback_malcolm_150219.jpg) no-repeat bottom center scroll;
+  color: white;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-
-.lessonIntro {
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: black;
-  background: url(http://cdn.wallpapersafari.com/31/18/6e8Ex5.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-
 }
 .intro .intro-body {
   display: table-cell;
@@ -186,8 +169,8 @@ a:focus {
 }
 .btn-circle:hover,
 .btn-circle:focus {
-    outline: white;
-  color: #b30000;
+  outline: none;
+  color: white;
   background: rgba(255, 255, 255, 0.1);
 }
 .btn-circle i.animated {
@@ -237,14 +220,6 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-
-.card {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.card img {
-  width: 100%;
-}
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -283,16 +258,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #b30000;
-  color: #b30000;
+  border: 1px solid #42DCA3;
+  color: #42DCA3;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #b30000;
+  border: 1px solid #42DCA3;
   outline: none;
   color: black;
-  background-color: #b30000;
+  background-color: #42DCA3;
 }
 ul.banner-social-buttons {
   margin-top: 0;
