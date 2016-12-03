@@ -31,6 +31,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+
+.header{
+  text-align: center;
+  margin: -2px;
+}
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -51,6 +56,14 @@ a:focus {
 }
 .light {
   font-weight: 400;
+}
+
+code{
+  padding: 2px 2px;
+  font-size: 90%;
+  color: limegreen;
+  background-color: black;
+  border-radius: 4px;
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -101,6 +114,10 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
+
+li {
+  list-style-type: none; important!important;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -125,6 +142,20 @@ a:focus {
   text-align: center;
   color: white;
   background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro-2 {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
