@@ -1,0 +1,30 @@
+
+
+.nav ul li {
+    display: inline-block;
+
+}
+
+.nav {
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+.vid-container{
+    position: absolute;
+        text-align: center;
+    color:white;
+    
+}
+
+.about {
+    background-color: black;
+    color: white;
+}
+
+
