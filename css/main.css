@@ -1,30 +1,43 @@
-
-
-.nav ul li {
-    display: inline-block;
-
+html {
+    background: url("/Users/BryarCole/Dev/bryarcole.github.io/img/tmemqfl2tim-kazuend.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
-.nav {
-    background-color: black;
-    padding-bottom: 10px;
+nav {
+    background: rgba(250, 250, 250, 0);
+    text-align: center;
 }
 
-video {
-    height: 100%;
-    width: 100%;
+.nav{
+    text-align: center;
+    font-size: 60px;
 }
 
-.vid-container{
-    position: absolute;
-        text-align: center;
-    color:white;
-    
-}
-
-.about {
-    background-color: black;
+body {
+    background: rgba(250, 250, 250, 0);
     color: white;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+.section {
+    background: rgba(200, 50, 60, 0);
+}
+
+.jumbotron {
+  background-size: cover;
+  background: rgba(200, 50, 60, 0);
+
+ 
+}
+
+.header ul li {
+  display:inline-block;
+}
+
+.container {
+    width:100%;
+}
