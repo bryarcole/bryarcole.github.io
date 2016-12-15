@@ -1,31 +1,97 @@
-html {
-    background: url("/Users/BryarCole/Dev/bryarcole.github.io/img/tmemqfl2tim-kazuend.jpg") no-repeat center center fixed;
-    background-size: cover;
-}
-
-nav {
-    background: rgba(250, 250, 250, 0);
-    text-align: center;
-}
-
-.nav{
-    text-align: center;
-    font-size: 60px;
-}
-
 body {
-    background: rgba(250, 250, 250, 0);
+    width: 100%;
+    height: 100%;
+    /* body padding for the fixed navbar */
+    background: black;
+}
+
+
+#about img {
+    height: 35%;
+    width: 35%;
+    position: relative;
+    margin: auto;
+}
+
+
+
+.about-content h2{
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Oxygen',sans-serif;
+    color: white;
+    font-size: 2em;
+    margin: 3px;
+    letter-spacing: 1px;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 100% !important; 
+    font-size: 30px;
+    }
+    .btn-circle:hover {
+    animation: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oxygen',sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
     color: white;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+.intro {
+    display:table;
+    width:100%;
+    height: auto;
+    padding: 300px 0px 400px 0px;
+    text-align: center;
+    color: white;
+    background: url(/img/yzdyjgsgw68-alejandro-scaff.jpg);
+    background-size: cover;
 }
 
-.section {
-    background: rgba(200, 50, 60, 0);
+.intro-body { 
+    display: table-cell;
+    vertical-align:middle;
+    bottom: 150px;
+} 
+.intro-heading {
+    bottom: 50px;
 }
+
+.navbar-custom {
+    background-color: rgba(200, 50, 60, 0);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2em;
+
+}
+
+.navbar-custom a {
+    color: red;
+    padding: 5px;
+}
+
+.intro-body .intro-heading {
+    font-size: 120px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+
 
 .jumbotron {
   background-size: cover;
@@ -40,4 +106,21 @@ html, body {
 
 .container {
     width:100%;
+}
+
+section {
+    background-color: black;
+}
+
+
+@keyframes pulse {
+    from {
+        transform:scale(1);
+    }
+    50% {
+        transform:scale(1.2);
+    }
+    100% {
+        transform:scale(1);
+    }
 }
