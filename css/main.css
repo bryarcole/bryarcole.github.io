@@ -5,6 +5,11 @@ body {
     background: black;
 }
 
+#about {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    background-image: url(http://more-sky.com/data/out/7/IMG_206786.png);
+}
 
 #about img {
     height: 35%;
@@ -17,6 +22,11 @@ body {
 
 .about-content h2{
     font-size: 3em;
+    padding-bottom: 20px;
+}
+
+.about-content p {
+    padding-top: 20px;
 }
 
 p {
@@ -25,6 +35,10 @@ p {
     font-size: 2em;
     margin: 3px;
     letter-spacing: 1px;
+}
+
+.container {
+    width: 100%;
 }
 
 .btn-circle {
@@ -61,7 +75,7 @@ h6 {
     padding: 300px 0px 400px 0px;
     text-align: center;
     color: white;
-    background: url(/img/yzdyjgsgw68-alejandro-scaff.jpg);
+    background: url(/Users/BryarCole/Dev/bryarcole.github.io/img/yzdyjgsgw68-alejandro-scaff.jpg);
     background-size: cover;
 }
 
@@ -86,6 +100,10 @@ h6 {
     padding: 5px;
 }
 
+.nav ul li {
+    text-align: center;
+}
+
 .intro-body .intro-heading {
     font-size: 120px;
     font-family: 'Bungee Shade', cursive;
@@ -104,12 +122,29 @@ h6 {
   display:inline-block;
 }
 
-.container {
-    width:100%;
+.works-row {
+    padding: 20px;
 }
 
 section {
     background-color: black;
+}
+
+.footer-row ul {
+    text-align: center;
+}
+
+.footer-row ul li {
+    display: inline-block;
+    font-size: 5em;
+    padding: 1.25em;
+}
+.footer-row ul li a {
+    color: firebrick;
+}
+
+.footer-row ul li:hover {
+    animation: pulse 2s infinite;
 }
 
 
