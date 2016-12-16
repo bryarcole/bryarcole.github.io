@@ -136,8 +136,8 @@ section {
 
 .footer-row ul li {
     display: inline-block;
-    font-size: 4em;
-    margin: 1.25em;
+    font-size: 5em;
+    margin: .75em;
 }
 .footer-row ul li a {
     color: firebrick;
