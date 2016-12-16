@@ -75,7 +75,7 @@ h6 {
     padding: 300px 0px 400px 0px;
     text-align: center;
     color: white;
-    background: url(/img/yzdyjgsgw68-alejandro-scaff.jpg);
+    background: url(img/yzdyjgsgw68-alejandro-scaff.jpg);
     background-size: cover;
 }
 
@@ -137,7 +137,7 @@ section {
 .footer-row ul li {
     display: inline-block;
     font-size: 5em;
-    padding: 1.25em;
+    margin: 1.25em;
 }
 .footer-row ul li a {
     color: firebrick;
