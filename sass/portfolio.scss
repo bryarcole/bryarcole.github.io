@@ -195,7 +195,7 @@ header {
     min-height: auto;
     @include background-cover();
     background-position: center;
-    background-image: url('img/jgoerugd_y4-john-towner.jpg');
+    background-image: url('/img/jgoerugd_y4-john-towner.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -300,7 +300,7 @@ header {
 }
     padding: 125px;
     background-color: $background-primary-color;
-    @include parra-back("img/a2qvtnsk5um-trent-yarnell.jpg"); 
+    @include parra-back("/img/a2qvtnsk5um-trent-yarnell.jpg"); 
     @include background-cover();
 
     i {
@@ -388,7 +388,7 @@ header {
 // contact
 
 #contact {
- @include parra-back("img/red-forest-26750-1920x1080.jpg");
+ @include parra-back("/img/red-forest-26750-1920x1080.jpg");
  p {
      color: white;
      font-size: 2em;
