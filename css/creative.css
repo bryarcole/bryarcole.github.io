@@ -151,7 +151,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("/Users/BryarCole/Dev/ProtfolioTemplate/img/jgoerugd_y4-john-towner.jpg");
+  background-image: url("img/jgoerugd_y4-john-towner.jpg");
   text-align: center;
   color: white; }
   header .header-content {
@@ -208,7 +208,7 @@ header {
 #social {
   padding: 125px;
   background-color: #36454f;
-  background: url("/Users/BryarCole/Dev/ProtfolioTemplate/img/a2qvtnsk5um-trent-yarnell.jpg") no-repeat center center fixed;
+  background: url("img/a2qvtnsk5um-trent-yarnell.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -296,7 +296,7 @@ header {
   margin: 0 auto 20px; }
 
 #contact {
-  background: url("/Users/BryarCole/Dev/ProtfolioTemplate/img/red-forest-26750-1920x1080.jpg") no-repeat center center fixed;
+  background: url("img/red-forest-26750-1920x1080.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
