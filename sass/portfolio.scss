@@ -130,7 +130,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: .25em;
+                font-size: .18em;
                 color: $gray-darker;
                 &:hover {
                     color: $theme-primary;
@@ -295,7 +295,7 @@ header {
 
     p {
         margin-bottom: 0;
-        color: $theme-primary;
+        color: whitesmoke;
     }
 }
     padding: 125px;
@@ -310,8 +310,8 @@ header {
         }
     }
     p{
-        @include neon-text(12px, black);
-        font-size: 1.2em;
+        @include neon-text(20px, black);
+        font-size: 1.8em;
         font-family: $theme-text;
         font-weight: bold;
     }
